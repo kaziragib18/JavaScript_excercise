@@ -74,3 +74,30 @@ function hotelCost(stayDayCount) {
     }
     return totalCost;
 }
+
+/**
+ * Finding Longest Named friend's name from an array
+ * @param Array friends
+ * @return String largestNamedFriend
+ */
+function megaFriend(friends) {
+    // Santization of Input
+    if (typeof friends !== "object") {
+        return "Input must be a valid array of strings";
+    }
+    // empty array Santization
+    if (!friends.length) {
+        return "Please marry first :) You need a friend to make life easier";
+    }
+    var largestNamedFriend = friends[0];
+    for (var i = 0; i < friends.length; i++) {
+        var friendName = friends[i];
+        if (typeof friendName == "number" || friendName == "" || friendName == " " || friendName == "  ") {
+            return "Minimum one friend name is  or not proper String, Please provide valid names";
+        }
+        if (friendName.length > largestNamedFriend.length) {
+            largestNamedFriend = friends[i];
+        }
+    }
+    return largestNamedFriend;
+}

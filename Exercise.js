@@ -1,5 +1,5 @@
-/**
- * Kilometer to Meter Unit Conversion
+/*
+* Kilometer to Meter Unit Conversion
  * @param Number km
  * @return Number meter
  */
@@ -14,8 +14,8 @@ function kilometerToMeter(km) {
     return km * 1000;
 }
 
-/**
- * Budget Calculate for electronics store
+/*
+Budget Calculate for electronics store
  * @param Number clockQuantity , Number phoneQuantity , Number laptopQuantity ,
  * @return Number totalCost
  */

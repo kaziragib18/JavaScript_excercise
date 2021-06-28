@@ -52,6 +52,7 @@ function hotelCost(stayDayCount) {
     if (stayDayCount < 0) {
         return "Invalid Input, You can't stay minus day";
     }
+    
     var totalCost = 0;
     var first10DayCost = 10 * 100;
     var second10DayCost = 10 * 80;
@@ -75,11 +76,12 @@ function hotelCost(stayDayCount) {
     return totalCost;
 }
 
-/**
- * Finding Longest Named friend's name from an array
+/*
+* Finding Longest Named friend's name from an array
  * @param Array friends
  * @return String largestNamedFriend
  */
+
 function megaFriend(friends) {
     // Santization of Input
     if (typeof friends !== "object") {

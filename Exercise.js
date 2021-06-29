@@ -103,3 +103,10 @@ function megaFriend(friends) {
     }
     return largestNamedFriend;
 }
+
+` js
+    // TESTING
+    
+    var friends = ["kazi","Md Rahat","Ragib"];
+    var getMegaFriendResult = megaFriend(friends);
+    console.log(getMegaFriendResult);

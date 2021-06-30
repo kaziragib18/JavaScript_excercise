@@ -1,8 +1,30 @@
-/*
-* Kilometer to Meter Unit Conversion
- * @param Number km
- * @return Number meter
- */
+
+
+//use bracket notation 
+
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+
+
+// convertCelsiusToFahrenheit
+function convertToF(celsius) {
+    var fahrenheit = celsius * 9/5 + 32;
+    return fahrenheit;
+  }
+  convertToF(30);
+
+
+// Kilometer to Meter Unit Conversion//
+//@param Number km
+ // @return Number meter
+
 function kilometerToMeter(km) {
     if (typeof km != "number") {
         return "Please Input Number Please! ";
@@ -14,11 +36,10 @@ function kilometerToMeter(km) {
     return km * 1000;
 }
 
-/*
-Budget Calculate for electronics store
- * @param Number clockQuantity , Number phoneQuantity , Number laptopQuantity ,
- * @return Number totalCost
- */
+//Budget Calculate for electronics store
+// @param Number clockQuantity , Number phoneQuantity , Number laptopQuantity ,
+ // @return Number totalCost
+
 function budgetCalculator(clockQuantity, phoneQuantity, laptopQuantity) {
     // Validation
     if (

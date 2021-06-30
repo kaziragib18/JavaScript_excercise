@@ -1,5 +1,4 @@
 
-
 //use bracket notation 
 
 var firstLetterOfFirstName = "";
@@ -13,7 +12,24 @@ var lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 
 
+//use bracket notation to find  the Nth
+
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+
+
+
 // convertCelsiusToFahrenheit
+
+
 function convertToF(celsius) {
     var fahrenheit = celsius * 9/5 + 32;
     return fahrenheit;

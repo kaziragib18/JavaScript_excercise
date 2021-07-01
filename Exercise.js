@@ -36,7 +36,6 @@ function convertToF(celsius) {
   convertToF(30);
 
 
-
 //Counting Cards on javascript
 
 var count = 0;
@@ -74,8 +73,9 @@ function cc(card) {
     return count;
 }
 
+
 // Add/remove calls to test your function.
-// Note: Only the last will display
+
 cc(2);
 cc(3);
 cc(7);
